@@ -101,9 +101,6 @@ export default function ResultPage({ data }: IResultPageProps) {
 
     const menu = (
         <Menu onClick={menuOnClick}>
-          {/* <Menu.Item key="0">1st menu item</Menu.Item>
-          <Menu.Item key="1">2nd menu item</Menu.Item>
-          <Menu.Item key="2">3rd menu item</Menu.Item> */}
         { options.map( (obj,index)=> {
             return  <Menu.Item key={index}>{obj}</Menu.Item>
           }
