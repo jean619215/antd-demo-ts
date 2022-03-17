@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import * as RealEstateServer from "./server/RealEstateServer";
+
+const realEstateServer = RealEstateServer;
 
 ReactDOM.render(
   <React.StrictMode>
